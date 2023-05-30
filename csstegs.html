@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c8c5d77213.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/games/images/ccs-fav.png">
+<style>
+    footer {
+            background: -webkit-gradient(linear, left top, right bottom, from(rgb(30, 27, 179)), to(rgb(159, 44, 235)));
+            }
+    .py-2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+      margin-top: 50px;
+      }
+      .card-text {
+        font-size: 1rem;
+      }
+
+</style>
+    <title>CSS свойства</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><img src="/games/images/logo.png" width="60" height="40"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/games/index.html">Главная <span class="sr-only">(текущая)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/games/game.html">Поиграем?</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Категории
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/games/htmltegs.html">HTML теги</a>
+                <a class="dropdown-item" href="/games/csstegs.html">CSS свойства</a>
+                <a class="dropdown-item" href="/games/jstegs.html">Javascript теги</a>
+            </li>
+            </ul>
+            </div>
+      </nav>
+ <h1 class="text-center">CSS свойства</h1>
+ <p class="text-center"><strong>SS (Cascading Style Sheets)</strong>— язык таблиц стилей, который позволяет прикреплять стиль (например, шрифты и цвет) к структурированным документам (например, документам HTML и приложениям XML). <br>
+    Обычно CSS-стили используются для создания и изменения стиля элементов веб-страниц и пользовательских интерфейсов, написанных на языках HTML и XHTML, но также могут быть применены к любому виду XML-документа, в том числе XML, SVG и XUL. <br>
+    Отделяя стиль представления документов от содержимого документов, CSS упрощает создание веб-страниц и обслуживание сайтов. <br>
+CSS поддерживает таблицы стилей для конкретных носителей, поэтому авторы могут адаптировать представление своих документов к визуальным браузерам, слуховым устройствам, принтерам, брайлевским устройствам, карманным устройствам и т.д. <br>
+Каскадные таблицы стилей описывают правила форматирования элементов с помощью свойств и допустимых значений этих свойств. Для каждого элемента можно использовать ограниченный набор свойств, остальные свойства не будут оказывать на него никакого влияния. <br>
+
+Объявление стиля состоит из двух частей: селектора и объявления. В HTML имена элементов нечувствительны к регистру, поэтому «h1» работает так же, как и «H1». Объявление состоит из двух частей: имя свойства (например, color) и значение свойства (grey). Селектор сообщает браузеру, какой именно элемент форматировать, а в блоке объявления (код в фигурных скобках) перечисляются форматирующие команды — свойства и их значения.</p>
+<h2 class="text-center"><strong>Вот основные CSS свойства:</strong></h2>
+<br>
+
+<h4 class="text-center"><i>Текстовые свойства</i></h4>
+    <div class="row row-cols-1 row-cols-md-2">
+
+        <div class="col mb-4">
+        <div class="card">
+            <h3 class="text-center"><pre><code>font-size</code></pre> </h3>
+            <div class="card-body">
+            <h5 class="card-title text-center text-danger">Размер шрифта</h5>
+            <p class="card-text text-center">Свойство font-size устанавливает размер шрифта текста. Значением свойства служат любые единицы для размеров (как правило, это px, em или rem) либо специальные ключевые слова (используются крайне редко).</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="col mb-4">
+            <div class="card">
+            <h3 class="text-center"><pre><code>font-style</code></pre> </h3>
+            <div class="card-body">
+                <h5 class="card-title text-center text-danger">Начертание текста</h5>
+                <p class="card-text text-center">Свойство font-style устанавливает курсив либо наклонное написание текста.</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col mb-4">
+            <div class="card">
+            <h3 class="text-center"><pre><code>font-weight</code></pre> </h3>
+            <div class="card-body">
+                <h5 class="card-title text-center text-danger">Начертание текста</h5>
+                <p class="card-text text-center">Свойство font-weight устанавливает либо отменяет жирный текст.</p>
+            </div>
+            </div>
+        </div>
+
+        <div class="col mb-4">
+            <div class="card">
+            <h3 class="text-center"><pre><code>font-family</code></pre> </h3>
+            <div class="card-body">
+                <h5 class="card-title text-center text-danger">Тип шрифта</h5>
+                <p class="card-text text-center">Свойство font-family устанавливает тип шрифта.</p>
+            </div>
+            </div>
+        </div>
+
+        </div>
+
+        <h4 class="text-center"><i>Оформление</i></h4>
+        <div class="row row-cols-1 row-cols-md-3">
+            
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>color</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Цвет</h5>
+                    <p class="card-text text-center">Свойство color устанавливает цвет тексту. Значением свойства служат любые единицы для цвета. Значение по умолчанию как правило черный цвет.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>border</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Границы</h5>
+                    <p class="card-text text-center">Свойство border задает цвет, тип и толщину границы для всех сторон одновременно. Является свойством-сокращением для border-width, border-style и border-color. В отличие от сокращаемых свойств не может задавать разную границу для 4-х сторон сразу, а только одинаковую для всех.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>outline</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Рамка</h5>
+                    <p class="card-text text-center">Свойство outline задает цвет, тип и толщину для внешней рамки (границы, которая не занимает места) для всех сторон одновременно, но в отличие от border такая граница не расширяет элемент. Является свойством-сокращением для outline-width, outline-style и outline-color (но не для outline-offset).</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>background</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Фон</h5>
+                    <p class="card-text text-center">Свойство background задает одновременно все свойства фона: background-attachment, background-color, background-image, background-position, background-repeat, background-size, background-origin, background-clip.
+                    Порядок свойств значения не имеет. Ненужные свойства можно опускать - в этом случае оно примет значение по умолчанию. Свойства background-position и background-size задаются через слеш и в этом случае порядок имеет значение (сначала позиция, потом размер).
+                    Также свойство background принимает значение none, соответствующее отсутствию фона.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>text-shadow</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Тень</h5>
+                    <p class="card-text text-center">Свойство text-shadow задает тень тексту. В качестве значения свойство принимает 4 параметра, перечисляемые через пробел, либо ключевое слово none, отменяющее тень совсем (это значение по умолчанию).</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>opacity</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Прозрачность</h5>
+                    <p class="card-text text-center">Свойство opacity задает полупрозрачность элементу. Если у элемента задана полупрозрачность - это значит, что через него будут просвечивать те элементы, которые лежат под ним.
+                    Свойство принимает своим значением дробное число от 0 до 1. При этом значение 0 - это полная прозрачность, а значение 1 - полная непрозрачность. Промежуточное значение, например 0.3, задает полупрозрачность. Значение по умолчанию: 1.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>linear-gradient</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Градиент</h5>
+                    <p class="card-text text-center">Функция linear-gradient задает линейный градиент. Применяется к свойствам, которые задают картинку фона: background, background-image или картинку границы: border-image, background-image-source.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>border-image</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Картинка для границы</h5>
+                    <p class="card-text text-center">Свойство border-image задает картинку для границы, оно является свойством сокращением для свойств border-image-source, border-image-slice, border-image-repeat, border-image-width и border-image-outset. При этом свойство-сокращение появилось в CSS раньше сокращаемых свойств и поэтому поддерживается в большем количестве старых браузеров.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>border-image</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Картинка для границы</h5>
+                    <p class="card-text text-center">Свойство border-image задает картинку для границы, оно является свойством сокращением для свойств border-image-source, border-image-slice, border-image-repeat, border-image-width и border-image-outset. При этом свойство-сокращение появилось в CSS раньше сокращаемых свойств и поэтому поддерживается в большем количестве старых браузеров.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="text-center"><i>Другие свойства</i></h4>
+        <div class="row row-cols-1 row-cols-md-3">
+            
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>width</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Ширина</h5>
+                    <p class="card-text text-center">Свойство width устанавливает ширину элемента. Значением свойства служат любые единицы для размеров либо ключевое свойство auto, предоставляющее браузеру самостоятельно вычислять размер элемента (поведение по умолчанию).</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>height</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Высота</h5>
+                    <p class="card-text text-center">Свойство height устанавливает высоту элемента. Значением свойства служат любые единицы для размеров либо ключевое свойство auto, предоставляющее браузеру самостоятельно вычислять размер элемента (поведение по умолчанию).</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>margin</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Внешний отступ</h5>
+                    <p class="card-text text-center">Свойство margin устанавливает внешний отступ элемента. Значением свойства служат любые единицы для размеров либо ключевое свойство auto, предоставляющее браузеру самостоятельно вычислять отступ элемента. По умолчанию каждый браузер может добавлять элементам различные отступы.
+                    Свойство является сокращением для свойств margin-top, margin-right, margin-bottom, margin-left.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>padding</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Внутренний отступ</h5>
+                    <p class="card-text text-center">Свойство padding устанавливает внутренний отступ элемента. Значением свойства служат любые единицы для размеров. По умолчанию каждый браузер может добавлять элементам различные отступы. Свойство является сокращением для свойств padding-top, padding-right, padding-bottom, padding-left.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>box-sizing</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Расчет размеров элемента</h5>
+                    <p class="card-text text-center">Свойство box-sizing позволяет менять способ расчета размеров элемента.
+                        По умолчанию добавление padding расширяет элемент: если мы задали ширину width 100px и padding-left в 20px, то реальная ширина элемента будет 120px.                      
+                        А если мы зададим еще и border-left в 10px, то реальная ширина элемента станет 130px. То есть padding и border расширяют блок (и по ширине, и по высоте). Это поведение можно поменять с помощью box-sizing.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                <h3 class="text-center"><pre><code>display</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Отображение</h5>
+                    <p class="card-text text-center">Свойство display - задает способ отображения элемента браузером.</p>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+
+<footer>
+    <footer class="container-fluid text-center py-2 text-light display-4">
+        © Copyright; Все права защищены <script>document.write(new Date().getFullYear())</script>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>

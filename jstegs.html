@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c8c5d77213.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/games/images//js-fav.png">
+<style>
+    footer {
+            background: -webkit-gradient(linear, left top, right bottom, from(rgb(30, 27, 179)), to(rgb(159, 44, 235)));
+            }
+    .py-2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+      margin-top: 50px;
+      }
+      .card-text {
+        font-size: 1rem;
+      }
+
+</style>
+    <title>Элементы JavaScript</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#"><img src="/games/images/logo.png" width="60" height="40"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/games/index.html">Главная <span class="sr-only">(текущая)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/games/game.html">Поиграем?</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Категории
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="/games/htmltegs.html">HTML теги</a>
+                <a class="dropdown-item" href="/games/csstegs.html">CSS теги</a>
+                <a class="dropdown-item" href="/games/jstegs.html">Элементы JavaScript</a>
+            </li>
+            </ul>
+            </div>
+      </nav>
+ <h1 class="text-center">Элементы JavaScript</h1>
+ <p class="text-center"><strong>JavaScript – это язык программирования, который добавляет интерактивность на ваш веб-сайт </strong>(например: игры, отклик при нажатии кнопок или при вводе данных в формы, динамические стили, анимация). <br>
+Эта статья поможет вам начать работать с этим захватывающим языком и даст вам представление о том, на что он способен. <br>
+JavaScript невероятно универсален и дружелюбен к новичкам. Обладая большим опытом, вы сможете создавать игры, анимированную 2D и 3D графику, полномасштабные приложения с базами данных и многое другое!
+    </p>
+<h2 class="text-center"><strong>Базовая информация по JavaScript:</strong></h2>
+<br>
+
+<h4 class="text-center"><i>Основной тег</i></h4>
+    <div class="row row-cols-1 row-cols-md-1">
+
+        <div class="col mb-4">
+        <div class="card">
+            <h3 class="text-center"><pre><code>&lt;script&gt;
+            </code></pre> </h3>
+            <div class="card-body">
+            <p class="card-text text-center">Программы на JavaScript могут быть вставлены в любое место HTML-документа с помощью тега &lt;script&gt;</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <h4 class="text-center"><i>Ключевое слово</i></h4>
+    <div class="row row-cols-1 row-cols-md-1">
+        
+        <div class="col mb-4">
+            <div class="card">
+                <h3 class="text-center"><pre><code>let</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Пример: <code>let message</code> </h5>
+                <p class="card-text text-center">Переменная – это «именованное хранилище» для данных. Мы можем использовать переменные для хранения товаров, посетителей и других данных.</p>
+                </div>
+            </div>
+            </div>
+    </div>
+
+    <h4 class="text-center"><i>Типы данных</i></h4>
+    <div class="row row-cols-1 row-cols-md-3">
+        
+        <div class="col mb-4">
+            <div class="card">
+                <h3 class="text-center"><pre><code>number</code></pre> </h3>
+                <div class="card-body">
+                    <h5 class="card-title text-center text-danger">Числовой тип данных </h5>
+                <p class="card-text text-center">Числовой тип данных (number) представляет как целочисленные значения, так и числа с плавающей точкой.
+                    Существует множество операций для чисел, например, умножение *, деление /, сложение +, вычитание - и так далее.
+                    Кроме обычных чисел, существуют так называемые «специальные числовые значения», которые относятся к этому типу данных: Infinity, -Infinity и NaN.</p>
+                </div>
+            </div>
+            </div>
+
+            <div class="col mb-4">
+                <div class="card">
+                    <h3 class="text-center"><pre><code>string</code></pre> </h3>
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-danger">Строковый тип данных</h5>
+                    <p class="card-text text-center">Строка (string) в JavaScript должна быть заключена в кавычки. <br>
+                        В JavaScript существует три типа кавычек.
+                        <li>Двойные кавычки: "Привет".</li> 
+                        <li>Одинарные кавычки: 'Привет'.</li> 
+                        <li>Обратные кавычки: `Привет`.</li> 
+                    </p>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col mb-4">
+                    <div class="card">
+                        <h3 class="text-center"><pre><code>boolean</code></pre> </h3>
+                        <div class="card-body">
+                            <h5 class="card-title text-center text-danger">Булевый тип данных</h5>
+                        <p class="card-text text-center">Булевый тип (boolean) может принимать только два значения: <code>true</code> (истина) и <code>false</code> (ложь).
+                            Такой тип, как правило, используется для хранения значений да/нет: <code>true</code> значит «да, правильно», а <code>false</code> значит «нет, не правильно».</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col mb-4">
+                        <div class="card">
+                            <h3 class="text-center"><pre><code>null</code></pre> </h3>
+                            <div class="card-body">
+                                <h5 class="card-title text-center text-danger">Специальный тип данных</h5>
+                            <p class="card-text text-center">Специальное значение <code>null</code> не относится ни к одному из типов, описанных выше.
+                                Оно формирует отдельный тип, который содержит только значение <code>null</code>.</p>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="col mb-4">
+                            <div class="card">
+                                <h3 class="text-center"><pre><code>undefined</code></pre> </h3>
+                                <div class="card-body">
+                                    <h5 class="card-title text-center text-danger">Специальный тип данных</h5>
+                                <p class="card-text text-center">Специальное значение <code>undefined</code> также стоит особняком. Оно формирует тип из самого себя так же, как и <code>null</code>.
+                                    Оно означает, что «значение не было присвоено».
+                                    Если переменная объявлена, но ей не присвоено никакого значения, то её значением будет <code>undefined</code>.</p>
+                                </div>
+                            </div>
+                            </div>
+
+                        <div class="col mb-4">
+                                <div class="card">
+                                    <h3 class="text-center"><pre><code>object</code></pre> </h3>
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center text-danger">Специальный тип данных</h5>
+                                    <p class="card-text text-center">Тип <code>object</code> (объект) – особенный.
+                                        Все остальные типы называются «примитивными», потому что их значениями могут быть только простые значения (будь то строка, или число, или что-то ещё). В объектах же хранят коллекции данных или более сложные структуры.</p>
+                                    </div>
+                                </div>
+                                </div>
+    </div>
+
+
+    <footer>
+        <footer class="container-fluid text-center py-2 text-light display-4">
+            © Copyright; Все права защищены <script>document.write(new Date().getFullYear())</script>
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    
+    
+    </body>
+    </html>
